@@ -10,7 +10,7 @@ arch=('any')
 url="https://www.gnome.org"
 license=("LGPL")
 options=('!buildflags' 'strip' 'staticlibs')
-makedepends=("${MINGW_PACKAGE_PREFIX}-meson")
+makedepends=("${MINGW_PACKAGE_PREFIX}-meson" "${MINGW_PACKAGE_PREFIX}-make")
 depends=("${MINGW_PACKAGE_PREFIX}-fftw"
   "${MINGW_PACKAGE_PREFIX}-libsamplerate"
   "${MINGW_PACKAGE_PREFIX}-ladspa-sdk"
